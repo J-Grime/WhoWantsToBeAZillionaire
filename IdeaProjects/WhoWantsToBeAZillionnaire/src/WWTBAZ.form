@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WWTBAZ">
+  <grid id="27dc6" binding="mainpanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1948" height="920"/>
+    </constraints>
+    <properties>
+      <background color="-16768792"/>
+      <maximumSize width="2000" height="950"/>
+      <minimumSize width="1000" height="900"/>
+      <preferredSize width="1000" height="950"/>
+    </properties>
+    <border type="none" title="cxsd"/>
+    <children>
+      <grid id="ee926" binding="title_Panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <background color="-11507224"/>
+          <focusTraversalPolicyProvider value="true"/>
+          <maximumSize width="900" height="70"/>
+          <minimumSize width="900" height="70"/>
+          <preferredSize width="900" height="70"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a6b0f" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <font name="Adobe Garamond Pro Bold" size="48" style="1"/>
+              <foreground color="-11938334"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="800" height="60"/>
+              <text value="Who Wants To Be A Zillionaire"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c62ad" binding="CentralGamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <background color="-15658735"/>
+          <maximumSize width="1500" height="700"/>
+          <minimumSize width="800" height="700"/>
+          <preferredSize width="800" height="750"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="2b80" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-15658735"/>
+              <preferredSize width="800" height="40"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4093a" class="javax.swing.JButton" binding="startButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Start"/>
+                </properties>
+              </component>
+              <component id="139f3" class="javax.swing.JLabel" binding="Player">
+                <constraints/>
+                <properties>
+                  <font size="18"/>
+                  <foreground color="-1"/>
+                  <text value="Player"/>
+                </properties>
+              </component>
+              <component id="a5377" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Submit"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="85a37" binding="QScreen" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <preferredSize width="850" height="300"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="818a7" class="javax.swing.JLabel" binding="question">
+                <constraints/>
+                <properties>
+                  <background color="-15658735"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="700" height="200"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="a7a80" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-16777216"/>
+                  <preferredSize width="170" height="50"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="79d8a" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <preferredSize width="10" height="10"/>
+                      <text value="A"/>
+                    </properties>
+                  </component>
+                  <component id="145de" class="javax.swing.JButton" binding="A_Answer">
+                    <constraints/>
+                    <properties>
+                      <background color="-15914510"/>
+                      <foreground color="-1"/>
+                      <preferredSize width="150" height="50"/>
+                      <text value="sdgjjepdj"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="e8ea6" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-16777216"/>
+                  <preferredSize width="170" height="50"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="efd45" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <preferredSize width="10" height="10"/>
+                      <text value="B"/>
+                    </properties>
+                  </component>
+                  <component id="fc8df" class="javax.swing.JButton" binding="B_ANSWER">
+                    <constraints/>
+                    <properties>
+                      <background color="-15914510"/>
+                      <foreground color="-1"/>
+                      <preferredSize width="150" height="50"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f4f15" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-16777216"/>
+                  <minimumSize width="170" height="50"/>
+                  <preferredSize width="170" height="50"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="75f7c" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <preferredSize width="10" height="10"/>
+                      <text value="C"/>
+                    </properties>
+                  </component>
+                  <component id="e9bd1" class="javax.swing.JButton" binding="C_ANSWER">
+                    <constraints/>
+                    <properties>
+                      <background color="-15914510"/>
+                      <foreground color="-1"/>
+                      <preferredSize width="150" height="50"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="68714" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-16777216"/>
+                  <preferredSize width="170" height="50"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1f3b9" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <preferredSize width="12" height="10"/>
+                      <text value="D"/>
+                    </properties>
+                  </component>
+                  <component id="cc7ce" class="javax.swing.JButton" binding="D_ANSWER">
+                    <constraints/>
+                    <properties>
+                      <background color="-15914510"/>
+                      <foreground color="-1"/>
+                      <preferredSize width="150" height="50"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="d0f1f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-15658735"/>
+              <preferredSize width="750" height="80"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3521f" class="javax.swing.JButton" binding="sportsButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-15914510"/>
+                  <font size="48"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="200" height="60"/>
+                  <text value="Sports"/>
+                </properties>
+              </component>
+              <component id="ead9c" class="javax.swing.JButton" binding="musicButton">
+                <constraints/>
+                <properties>
+                  <background color="-15914510"/>
+                  <font size="48"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="200" height="60"/>
+                  <text value="Music"/>
+                </properties>
+              </component>
+              <component id="99d7b" class="javax.swing.JButton" binding="GKButton">
+                <constraints/>
+                <properties>
+                  <background color="-15914510"/>
+                  <font size="22"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="270" height="60"/>
+                  <text value="General Knowledge"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="ac887" class="javax.swing.JButton" binding="A_button">
+            <constraints/>
+            <properties>
+              <background color="-15914510"/>
+              <font name="Adobe Caslon Pro Bold" size="48" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="A"/>
+            </properties>
+          </component>
+          <component id="dfb05" class="javax.swing.JButton" binding="B_button">
+            <constraints/>
+            <properties>
+              <background color="-15914510"/>
+              <font name="Adobe Caslon Pro Bold" size="48" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="B"/>
+            </properties>
+          </component>
+          <component id="b4446" class="javax.swing.JButton" binding="C_button">
+            <constraints/>
+            <properties>
+              <background color="-15914510"/>
+              <font name="Adobe Caslon Pro Bold" size="48" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="703c8" class="javax.swing.JButton" binding="D_button">
+            <constraints/>
+            <properties>
+              <background color="-15914510"/>
+              <font name="Adobe Caslon Pro Bold" size="48" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="D"/>
+            </properties>
+          </component>
+          <grid id="daa20" binding="Help_Panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-15658735"/>
+              <maximumSize width="850" height="100"/>
+              <minimumSize width="850" height="100"/>
+              <preferredSize width="850" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5065c" class="javax.swing.JButton" binding="a5050Button" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-15914510"/>
+                  <font size="48"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="250" height="50"/>
+                  <text value="50/50"/>
+                </properties>
+              </component>
+              <component id="26f00" class="javax.swing.JButton" binding="ATP_button">
+                <constraints/>
+                <properties>
+                  <background color="-15914510"/>
+                  <font size="28"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="250" height="50"/>
+                  <text value="Ask the public"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
